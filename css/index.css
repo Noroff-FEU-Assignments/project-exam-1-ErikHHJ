@@ -8,6 +8,24 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .blur {
+    position: relative; 
+  }
+  
+  .blur:before {
+    content: '';
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .blur img {
+    display: block; 
+  }
   .slider {
     display: flex;
     flex-direction: row;
@@ -21,7 +39,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(144, 151, 153);
+    border-radius: 100px
   }
   .slides{
     width: 100%;
@@ -39,7 +58,7 @@
   .slide-arrow {
     position: absolute;
     display: flex;
-    top: 120%;
+    top: 140%;
     bottom: 0;
     margin: auto;
     height: 4rem;
@@ -51,6 +70,21 @@
     cursor: pointer;
     opacity: 0.5;
     transition: opacity 100ms;
+  }
+  .next{
+    position: relative;
+    right: 20%;
+    font-size: 20px;
+    color: white;
+    top: 40%;
+
+  }
+  .prev{
+    position: relative;
+    left: 20%;
+    font-size: 20px;
+    color: white;
+    top: 40%;
   }
   .slide-arrow:hover,
   .slide-arrow:focus {
@@ -66,7 +100,33 @@
     padding-left: 0.75rem;
     border-radius: 2rem 0 0 2rem;
   }
+  .slidertext{
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  .mainheader{
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 4px solid white;
+    margin: 10 auto;
+    position: relative;
+    margin-bottom: 5px;
+    
+  }
   .dogimg {
     height: 300px;
     width: 300px;
+    border: 2px solid black;
+  }
+  .paw1 {
+    color: white;
+  }
+  .paw2 {
+    color: white;
+    
   }

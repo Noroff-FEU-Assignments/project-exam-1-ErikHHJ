@@ -5,7 +5,7 @@
 }
 body {
     font-family:monospace;
-    background-color: black;
+    background-image: url('../images/Body\ bakgrunn.jpg');
     
 }
 main {
@@ -21,7 +21,7 @@ main {
     max-width: 1200px;
 }
 .nav {
-    color: black;
+    color: lightblue;
     padding: 15px;
     display: flex;
     position: fixed;
@@ -35,7 +35,8 @@ main {
 }
 .header{
     border-bottom: 1px solid black;
-    color: black;
+    background-color: black;
+    color: lightblue;
     padding: 15px;
     display: flex;
     position: fixed;
@@ -44,6 +45,7 @@ main {
     top: 0px;
     align-items: center;
     justify-content: center;
+    z-index: 2;
     
 }
 .socials{
@@ -87,7 +89,7 @@ main {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: lightblue;
     transition-duration: .25s;
   }
   .menu__btn > span::before {
@@ -108,7 +110,7 @@ main {
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: lightblue;
+    background-color: white;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
     
