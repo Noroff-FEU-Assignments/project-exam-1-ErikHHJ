@@ -8,6 +8,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
   }
   .blur {
     position: relative; 
@@ -41,7 +42,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(144, 151, 153);
-    border-radius: 100px
+    border-radius: 10px
   }
   .slides{
     width: 100%;
@@ -131,9 +132,4 @@
     color: white;
     
   }
-  .footer {
-    display: grid;
-    place-items: center;
-    background-color: black;
-    height: 30%;
-  }
+  

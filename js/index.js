@@ -3,13 +3,13 @@ const url2 = "https://www.hjulstad.one/exam1/wp-json/wp/v2/posts?per_page=15"
 const container = document.querySelector(".slides")
 const loader = document.querySelector("#loading");
 
-export const displayLoading = () => {
+const displayLoading = () => {
   loader.classList.add("display");
   setTimeout(() => {
     loader.classList.remove("display");
   }, 5000);
 };
-export const hideLoading = () => {
+const hideLoading = () => {
   loader.classList.remove("display");
 };
 
