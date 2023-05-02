@@ -1,0 +1,25 @@
+@import "./layout.css";
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: lightgrey;
+    height: 100%;
+    padding: 15px;
+    gap: 10px;
+    font-family:monospace;
+}
+p {
+    max-width: 600px;
+    font-size: 20px;
+}
+img {
+    border-radius: 10px;
+    max-width: 100%;
+  height: auto;
+    
+}
+

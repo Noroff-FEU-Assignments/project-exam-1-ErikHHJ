@@ -1,5 +1,6 @@
 @import "./layout.css";
 
+
 .parallax {
     background-image: url('../images/image-from-rawpixel-id-5926065-jpeg.jpg');
     height: 100vh; 
@@ -29,7 +30,7 @@
   .slider {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 00px;
     background-color: white;
   }
   .slider-wrapper {
@@ -129,4 +130,10 @@
   .paw2 {
     color: white;
     
+  }
+  .footer {
+    display: grid;
+    place-items: center;
+    background-color: black;
+    height: 30%;
   }
