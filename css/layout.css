@@ -102,7 +102,7 @@ main {
     width       : 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -150,7 +150,7 @@ main {
     transition-duration: .25s;
   }
   .menu__item:hover {
-    background-color: #ab3f3f;
+    background-color: lightblue;
   } 
   .footer {
     display: grid;
