@@ -11,6 +11,7 @@
     padding: 15px;
     gap: 10px;
     font-family:monospace;
+    border-radius: 10px;
 }
 p {
     max-width: 600px;
