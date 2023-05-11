@@ -1,0 +1,24 @@
+@import './layout.css';
+.container{
+    background-color: darkgrey;
+    min-height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    border: 3px solid black;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+.para {
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 900px;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+}
