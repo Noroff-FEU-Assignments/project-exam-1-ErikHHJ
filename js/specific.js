@@ -25,7 +25,7 @@ const specificRender = async () => {
         hideLoading()
         const blogTitle = document.createElement("h1");
         blogTitle.innerHTML = `Blog post:${results.title.rendered}`
-        
+        document.title = `Dog-Blog | ${results.title.rendered}`
         content.innerHTML += results.content.rendered
         content.prepend(blogTitle);
         

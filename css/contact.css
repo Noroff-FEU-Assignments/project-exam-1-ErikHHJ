@@ -6,9 +6,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
 }
 .contact{
-    border: 3px solid black;
     color: black;
     padding: 5px;
     margin: 5px;
@@ -16,9 +18,71 @@
 .para {
     font-size: 15px;
     font-weight: bold;
-    max-width: 900px;
+    max-width: 800px;
 }
 .banner {
     display: flex;
     flex-direction: row;
+    border: 3px solid black;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    
 }
+.banner img {
+    max-width:300px;
+    height: auto;
+}
+.contactpage {
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 40px;
+  }
+#form input {
+  padding: 3px;
+  width: 80%;
+}
+#submit {
+  width: 150px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.parapopup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup{
+  width: 80vw;
+  height: 300px;
+}
+span p {
+  margin: 0 auto;
+  color: black;
+  font-size: 25px;
+  max-width: 70%;
+}
+.formsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #clientmsg{
+    font-size: 25px;
+  }
+  
