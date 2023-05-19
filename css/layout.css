@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body {
-  font-family:monospace;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zen Dots', cursive;
   background-image: url('../images/Body\ bakgrunn.jpg');
   
 }
@@ -13,7 +15,9 @@ main {
   max-width: 1200px; 
   margin: 0 auto !important; 
   float: none !important;
-  font-family:monospace;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zen Dots', cursive;
   
 }
 #loading {
@@ -160,4 +164,38 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 50px;
+    border: 1px solid white;
   }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer li {
+    list-style: none;  
+}
+footer a:hover {
+  background-color: white;
+  color: black;
+  
+}
+.footer i {
+  font-size: 30px;
+}
+footer i:hover {
+  scale: 1.5;
+}
+  .backtotop {
+    cursor: pointer;
+  }
+  .backtotop:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+  

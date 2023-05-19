@@ -3,6 +3,8 @@ const url2 = "https://www.hjulstad.one/exam1/wp-json/wp/v2/posts?per_page=15"
 const container = document.querySelector(".gridcontainer")
 const loader = document.querySelector("#loading");
 
+import {backToTop} from "./backtotop.js";
+
 const displayLoading = () => {
   loader.classList.add("display");
   setTimeout(() => {

@@ -1,3 +1,5 @@
+import {backToTop} from "./backtotop.js";
+
 const loader = document.querySelector("#loading");
 const displayLoading = () => {
     loader.classList.add("display");

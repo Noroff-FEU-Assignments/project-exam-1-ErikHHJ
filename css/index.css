@@ -8,7 +8,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
   }
   .blur {
     position: relative; 
@@ -61,7 +60,7 @@
   .slide-arrow {
     position: absolute;
     display: flex;
-    top: 150%;
+    top: 170%;
     bottom: 0;
     margin: auto;
     height: 4rem;
@@ -79,7 +78,7 @@
     right: 20%;
     font-size: 20px;
     color: white;
-    top: 40%;
+    top: 35%;
 
   }
   .prev{
@@ -87,7 +86,7 @@
     left: 20%;
     font-size: 20px;
     color: white;
-    top: 40%;
+    top: 35%;
   }
   .slide-arrow:hover,
   .slide-arrow:focus {
@@ -109,16 +108,15 @@
   }
   .mainheader{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 30%;
     border: 4px solid white;
-    margin: 10 auto;
     position: relative;
-    margin-bottom: 5px;
+    padding: 5px;
     
   }
   .dogimg {
@@ -126,60 +124,8 @@
     width: 300px;
     border: 2px solid black;
   }
-  .paw1 {
-    color: white;
-  }
-  .paw2 {
-    color: white;
-    
-  }
-  @media (max-width: 1530px){
-    #slide-arrow-next {
-      right: 0;
-    }
-    #slide-arrow-prev {
-      left: 0;
-    }
-  }
-  @media (min-width: 1276px){
-    #slide-arrow-next {
-      right: 2rem;
-    }
-    #slide-arrow-prev {
-      left: 2rem;
-    }
-  }
-  @media (min-width: 1350px){
-    #slide-arrow-next {
-      right: 4rem;
-    }
-    #slide-arrow-prev {
-      left: 4rem;
-    }
-  }
-  @media (min-width: 1400px){
-    #slide-arrow-next {
-      right: 6rem;
-    }
-    #slide-arrow-prev {
-      left: 6rem;
-    }
-  }
-  @media (min-width: 1500px){
-    #slide-arrow-next {
-      right: 11.5rem;
-    }
-    #slide-arrow-prev {
-      left: 11.5rem;
-    }
-  }
-  @media (min-width: 1600px){
-    #slide-arrow-next {
-      right: 12.5rem;
-    }
-    #slide-arrow-prev {
-      left: 12.5rem;
-    }
+  
+  
   }
   
   
