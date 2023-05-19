@@ -45,6 +45,7 @@ main {
   }
 .title {
     margin: 0 auto;
+    margin-left: 35px;
 }
 .maxwidth{
     max-width: 1200px;
@@ -101,8 +102,8 @@ main {
 
   .menu__btn {
     position: absolute;
-    top: 35px;
-    left: 70px;
+    top: 45px;
+    left: 35px;
     width       : 26px;
     height: 26px;
     cursor: pointer;
@@ -197,5 +198,31 @@ footer i:hover {
     background-color: white;
     color: black;
     padding: 10px;
+  }
+  @media (max-width:700px){
+    .title {
+      font-size: 12px;
+      
+    }
+    .menu__btn {
+      position: absolute;
+      top: 40px;
+      left: 5px;
+      width : 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 3;
+    }
+    .footer{
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .footer i {
+      font-size: 20px;
+    }
+    footer ul {
+      flex-direction: row;
+      font-size: 12px;
+    }
   }
   

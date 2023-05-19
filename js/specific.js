@@ -41,6 +41,7 @@ const specificRender = async () => {
         errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience. <br> Note: This page will only display detailed statistics if an item was clicked on home page.";
         errorDiv.appendChild(errorMsg);
         grid.appendChild(errorDiv)
+        console.log(error);
     }
 }
 specificRender();

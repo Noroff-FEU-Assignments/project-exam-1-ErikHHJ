@@ -19,6 +19,7 @@
     font-size: 15px;
     font-weight: bold;
     max-width: 800px;
+    width: 70vw;
 }
 .banner {
     display: flex;
@@ -28,11 +29,13 @@
     align-items: center;
     justify-content: center;
     max-width: 1200px;
+    width: auto;
     
 }
 .banner img {
     max-width:300px;
     height: auto;
+    width: 100%;
 }
 .contactpage {
     margin-top: 76px;
@@ -89,4 +92,20 @@ span p {
     padding: 10px;
     display: none;
   }
+  @media (max-width:800px){
+    .banner img {
+      max-width: 200px ;
+    }
+  }
+  @media (max-width:650px){
+    .banner img {
+      max-width: 150px ;
+    }
+  }
+  @media (max-width:450px){
+    .banner img {
+      max-width: 100px ;
+    }
+  }
+  
   
