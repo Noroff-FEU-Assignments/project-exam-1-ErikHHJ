@@ -191,6 +191,9 @@ footer a:hover {
 footer i:hover {
   scale: 1.5;
 }
+header i:hover {
+  scale: 1.5;
+}
   .backtotop {
     cursor: pointer;
   }
@@ -198,6 +201,10 @@ footer i:hover {
     background-color: white;
     color: black;
     padding: 10px;
+  }
+  header a {
+    color: lightblue;
+    text-decoration: none;
   }
   @media (max-width:700px){
     .title {
@@ -223,6 +230,9 @@ footer i:hover {
     footer ul {
       flex-direction: row;
       font-size: 12px;
+    }
+    footer i:hover {
+      scale: 20px;
     }
   }
   

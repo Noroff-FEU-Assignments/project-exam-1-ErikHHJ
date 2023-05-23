@@ -8,6 +8,7 @@
     margin: 0 auto;
     background-color: lightgrey;
     height: 100%;
+    min-height: 100vh;
     padding: 15px;
     gap: 10px;
     font-family:monospace;
@@ -23,4 +24,27 @@ img {
     height: auto;
     
 }
-
+.back {
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom: 4px solid lightgreen;
+    border-left: 4px solid lightgreen;
+    background-color: black;
+    color: white;
+    border-top: none;
+    position: relative;
+    top: 50px;
+}
+.back:hover{
+    background-color: lightgreen ;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+.back a {
+    text-decoration: none;
+    color: white;
+}
+.back a:hover {
+    color: black;
+    text-decoration: underline;
+}
