@@ -8,10 +8,13 @@
     padding: 20px;
     border-radius: 10px;
     background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 .parallax {
     background-image: url('../images/test3.jpg');
+    margin-top: 30px;
     height: 100vh;
     width: 100%;
     max-width: 1150px;

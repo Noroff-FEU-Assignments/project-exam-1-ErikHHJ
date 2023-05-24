@@ -46,6 +46,8 @@ main {
 .title {
     margin: 0 auto;
     margin-left: 35px;
+    font-size: 35px;
+    font-weight: bold;
 }
 .maxwidth{
     max-width: 1200px;
@@ -65,7 +67,7 @@ main {
     border-bottom: 1px solid black;
     background-color: black;
     color: lightblue;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     width: 100vw;
     height: 10%;
@@ -78,6 +80,7 @@ main {
 .socials{
     display: flex;
     gap: 5px;
+    font-size: 23px;
 }
 .input{
     width: 50%;
@@ -133,21 +136,25 @@ main {
     top: 0;
     left: -100%;
     width: 300px;
-    height: 80%;
+    height: 100%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: white;
+    background-color: black;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
     z-index: 2;
+    border-bottom: 3px solid lightblue ;
+    border-right: 3px solid lightblue;
+    border-radius: 10px;
+    transition: 0.5s;
     
 
   }
   .menu__item {
     display: block;
     padding: 12px 24px;
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -156,20 +163,20 @@ main {
   }
   .menu__item:hover {
     background-color: lightblue;
+    color: black;
   } 
   .footer {
     display: grid;
     place-items: center;
     background-color: black; 
-    color: white;
+    color: lightblue;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 50px;
-    border: 1px solid white;
   }
   .footer a {
     text-decoration: none;
-    color: white;
+    color: lightblue;
     padding: 5px;
 }
 .footer ul {
@@ -206,6 +213,15 @@ header i:hover {
     color: lightblue;
     text-decoration: none;
   }
+  .currentpage {
+    position: absolute;
+    top: 110px;
+    color: lightblue;
+    left: 200px;
+    background-color: black;
+    padding: 5px;
+
+  }
   @media (max-width:700px){
     .title {
       font-size: 12px;
@@ -233,6 +249,9 @@ header i:hover {
     }
     footer i:hover {
       scale: 20px;
+    }
+    .socials {
+      font-size: 15px;
     }
   }
   

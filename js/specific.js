@@ -30,6 +30,8 @@ const specificRender = async () => {
         document.title = `Dog-Blog | ${results.title.rendered}`
         content.innerHTML += results.content.rendered
         content.prepend(blogTitle);
+        const currentPage = document.querySelector(".currentpage");
+        currentPage.innerHTML += ` ${results.title.rendered}`
         
         
 
@@ -45,3 +47,4 @@ const specificRender = async () => {
     }
 }
 specificRender();
+

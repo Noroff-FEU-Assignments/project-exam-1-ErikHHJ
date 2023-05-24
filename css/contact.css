@@ -20,6 +20,7 @@
     font-weight: bold;
     max-width: 800px;
     width: 70vw;
+    font-family: monospace;
 }
 .banner {
     display: flex;
@@ -91,6 +92,7 @@ span p {
     border-radius: 30px;
     padding: 10px;
     display: none;
+    font-family: monospace;
   }
   @media (max-width:800px){
     .banner img {

@@ -22,18 +22,21 @@
     margin: 5px;
     border-radius: 10px;
 }
+.dogimg:hover{
+    scale: 1.4;
+}
 .dogtitle{
     font-size: larger;
 }
 .current {
-    font-family: monospace;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     padding: 15px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
 }
 .card{
     border: 2px solid lightgrey;
@@ -50,6 +53,8 @@
     color: white;
     border-radius: 10px;
     border: 2px solid white;
+    position: relative;
+    left: 45%;
 }
 @media (max-width:700px){
     .gridcontainer{
