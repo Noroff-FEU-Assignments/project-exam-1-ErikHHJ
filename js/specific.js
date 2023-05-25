@@ -11,6 +11,7 @@ const displayLoading = () => {
     loader.classList.remove("display");
   };
 const content = document.querySelector(".content");
+const main = document.querySelector("main");
 
 
 const queryString = document.location.search;
@@ -33,6 +34,33 @@ const specificRender = async () => {
         const currentPage = document.querySelector(".currentpage");
         currentPage.innerHTML += ` ${results.title.rendered}`
         
+        const idNumber = Number(id);
+        
+        const specificImg = document.querySelector(`.wp-image-${idNumber+1}`);
+        specificImg.onclick = () => {
+          const modalDiv = document.createElement("div");
+          modalDiv.classList.add("bg");
+          main.prepend(modalDiv);
+
+          const modalImg = document.createElement("img");
+          modalImg.src = specificImg.src
+          modalDiv.appendChild(modalImg);
+
+          const modalx = document.createElement("div");
+          modalx.classList.add("modalx");
+          modalx.innerHTML = `<i class="fa-regular fa-x"></i>`
+          modalDiv.appendChild(modalx);
+
+          modalx.onclick = () => {
+            modalDiv.remove()
+          }
+          
+
+
+
+        }
+
+        
         
 
 
@@ -42,7 +70,7 @@ const specificRender = async () => {
         errorMsg.classList.add("error");
         errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience. <br> Note: This page will only display detailed statistics if an item was clicked on home page.";
         errorDiv.appendChild(errorMsg);
-        grid.appendChild(errorDiv)
+        content.appendChild(errorDiv)
         console.log(error);
     }
 }

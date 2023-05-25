@@ -44,7 +44,13 @@ const getImages = async () => {
 
         }
     } catch (error) {
-        
+      const errorDiv = document.createElement("div");
+      const errorMsg = document.createElement("h2");
+      errorMsg.classList.add("error");
+      errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience. <br> Note: This page will only display detailed statistics if an item was clicked on home page.";
+      errorDiv.appendChild(errorMsg);
+      grid.appendChild(errorDiv)
+      console.log(error);
     }
 };
 getImages()
