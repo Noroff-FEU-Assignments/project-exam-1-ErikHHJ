@@ -13,7 +13,7 @@
     
 }
 .parallax {
-    background-image: url('../images/test3.jpg');
+    background-image: url('../images/about3.webp');
     margin-top: 30px;
     height: 100vh;
     width: 100%;
@@ -26,7 +26,7 @@
     border: 1px solid white;
 }
 .parallax2 {
-    background-image: url('../images/test4.jpg');
+    background-image: url('../images/about4.webp');
     height: 100vh;
     width: 100%;
     max-width: 1150px;
@@ -38,7 +38,7 @@
     border: 1px solid white;
 }
 .parallax3 {
-    background-image: url('../images/test2.jpg');
+    background-image: url('../images/about2.webp');
     height: 100vh;
     width: 100%;
     max-width: 1150px;

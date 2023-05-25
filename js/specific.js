@@ -38,6 +38,8 @@ const specificRender = async () => {
         
         const specificImg = document.querySelector(`.wp-image-${idNumber+1}`);
         specificImg.onclick = () => {
+          document.body.scrollTop = 0; //For Safari
+          document.documentElement.scrollTop = 0; //For Chrome
           const modalDiv = document.createElement("div");
           modalDiv.classList.add("bg");
           main.prepend(modalDiv);
