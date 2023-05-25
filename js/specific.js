@@ -33,10 +33,8 @@ const specificRender = async () => {
         content.prepend(blogTitle);
         const currentPage = document.querySelector(".currentpage");
         currentPage.innerHTML += ` ${results.title.rendered}`
-        
-        const idNumber = Number(id);
-        
-        const specificImg = document.querySelector(`.wp-image-${idNumber+1}`);
+        const specificImgArr = document.getElementsByTagName("img");
+        const specificImg = specificImgArr[0]
         specificImg.onclick = () => {
           document.body.scrollTop = 0; //For Safari
           document.documentElement.scrollTop = 0; //For Chrome
@@ -56,10 +54,6 @@ const specificRender = async () => {
           modalx.onclick = () => {
             modalDiv.remove()
           }
-          
-
-
-
         }
 
         

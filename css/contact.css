@@ -133,6 +133,9 @@ span p {
   #form input {
     width: 95vw;
   }
+  #clientmsg {
+    font-size: 15px;
+  }
 }
 .currentpage {
   top: 95px;
