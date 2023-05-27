@@ -1,18 +1,8 @@
 import {backToTop} from "./backtotop.js";
+import {displayLoading, hideLoading, loader} from "./loading.js";
 
-const loader = document.querySelector("#loading");
-const displayLoading = () => {
-    loader.classList.add("display");
-    setTimeout(() => {
-      loader.classList.remove("display");
-    }, 5000);
-  };
-  const hideLoading = () => {
-    loader.classList.remove("display");
-  };
 const content = document.querySelector(".content");
 const main = document.querySelector("main");
-
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -24,7 +14,6 @@ const specificRender = async () => {
     try {
         const res = await fetch(url);
         const results = await res.json();
-        console.log(results)
         hideLoading()
         const blogTitle = document.createElement("h1");
         blogTitle.innerHTML = `Blog post:${results.title.rendered}`
@@ -62,9 +51,9 @@ const specificRender = async () => {
 
     } catch(error){
         const errorDiv = document.createElement("div");
-        const errorMsg = document.createElement("h2");
+        const errorMsg = document.createElement("p");
         errorMsg.classList.add("error");
-        errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience. <br> Note: This page will only display detailed statistics if an item was clicked on home page.";
+        errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience. <br> Note: This page will only display a blog if an item was clicked on blogs or home page";
         errorDiv.appendChild(errorMsg);
         content.appendChild(errorDiv)
         console.log(error);

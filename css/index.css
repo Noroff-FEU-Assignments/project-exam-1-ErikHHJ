@@ -51,6 +51,7 @@
     padding: 0;
     overflow: scroll;
     scroll-behavior: smooth;
+    align-items: center;
   }
   .slides::-webkit-scrollbar { 
     width: 0;

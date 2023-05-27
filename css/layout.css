@@ -27,7 +27,7 @@ main {
   width: 2rem;
   height: 2rem;
   border: 5px solid #f3f3f3;
-  border-top: 6px solid #9c41f2;
+  border-top: 6px solid lightblue;
   border-radius: 100%;
   margin: auto;
   display: none;
@@ -81,6 +81,11 @@ main {
     justify-content: center;
     z-index: 2;
     
+}
+.error{
+  margin: 5px;
+  font-weight: bold;
+  border:3px dotted red ;
 }
 .socials{
     display: flex;
@@ -261,9 +266,9 @@ header i:hover {
       font-size: 15px;
     }
   }
-  @media (max-width:918px){
+  @media (max-width:979px){
     .title {
-      left:10% ;
+      left:0% ;
     }
   }
   @media (max-width:770px){

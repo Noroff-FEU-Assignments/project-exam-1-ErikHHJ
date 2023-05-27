@@ -1,31 +1,21 @@
 const url = "https://www.hjulstad.one/exam1/wp-json/wp/v2/media?per_page=15"
 const url2 = "https://www.hjulstad.one/exam1/wp-json/wp/v2/posts?per_page=15"
-const container = document.querySelector(".slides")
-const loader = document.querySelector("#loading");
+const container = document.querySelector(".slider-wrapper")
 const slidesContainer = document.getElementById("slides-container");
 
 import {backToTop} from "./backtotop.js";
+import {displayLoading, hideLoading, loader} from "./loading.js";
 
-const displayLoading = () => {
-  loader.classList.add("display");
-  setTimeout(() => {
-    loader.classList.remove("display");
-  }, 5000);
-};
-const hideLoading = () => {
-  loader.classList.remove("display");
-};
+
 
 const getImages = async () => {
     displayLoading();
     try {
         const res = await fetch(url);
         const results = await res.json();
-        console.log(results);
         const response = await fetch(url2);
         const getid = await response.json();
         hideLoading();
-        console.log(getid);
 
         for (let i=0; i < results.length; i++) {
             const obj = results[i];
@@ -45,11 +35,11 @@ const getImages = async () => {
         }
     } catch (error) {
       const errorDiv = document.createElement("div");
-      const errorMsg = document.createElement("h2");
+      const errorMsg = document.createElement("p");
       errorMsg.classList.add("error");
-      errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience. <br> Note: This page will only display detailed statistics if an item was clicked on home page.";
+      errorMsg.innerHTML = "An error occurred while fetching data, sorry for the inconvenience.";
       errorDiv.appendChild(errorMsg);
-      grid.appendChild(errorDiv)
+      container.appendChild(errorDiv)
       console.log(error);
     }
 };
