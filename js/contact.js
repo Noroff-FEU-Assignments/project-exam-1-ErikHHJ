@@ -1,7 +1,7 @@
-const fullName = /^[a-zA-Z0-9 åæø ]{5,30}$/;
-const subject = /^[a-zA-Z0-9 åæø ]{15,50}$/;
+const fullName = /^[a-zA-Z0-9 åæø.-]{5,30}$/;
+const subject = /^[a-zA-Z0-9 åæø.-]{15,50}$/;
 const email = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})$/;
-const message = /^[a-zA-Z0-9 åæø ]{25,200}$/;
+const message = /^[a-zA-Z0-9 åæø.-]{25,200}$/;
 
 import {backToTop} from "./backtotop.js";
 

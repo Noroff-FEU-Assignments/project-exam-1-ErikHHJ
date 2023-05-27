@@ -1,0 +1,8 @@
+RAPPORT: Erik Hjulstad
+
+Innledning:
+I denne oppgaven skal jeg lage en blogg med valgfritt tema. Jeg tolker det sånn at siden vi ikke får utdelt noe innhold, er det noe jeg ikke burde bruke for mye tid på, siden det vil gi meg dårlig tid til andre ting. 
+På grunn av det, valgte jeg et tema som er veldig generisk, lett å finne innhold til, og lett å finne bilder til. Nemlig hunderaser. 
+Oppgaven spesifiserer hvilke sider som skal lages, hvordan innholdet til selve blogg-innleggene skal hentes, og litt av funksjonaliteten på sidene. Jeg har valgt å ikke vike fra ting som står spesifisert, sånn at jeg ikke endrer for mye på det endelige resultatet. På grunn av mitt valg av blogg-tema, er det klart hva målgruppen er, nemlig hundeinteresserte, og alder er ganske ubetydelig, men jeg sikter på folk i en yngre alder som har sett mye nettsider før. 
+
+Når det kommer til gjennomføring og design, hadde jeg noen tanker fra starten. Jeg ville legge alle 15 postene inn i wordpress så tidlig som mulig. Designmessig ville jeg ha en enkel dropdown meny, for desktop og mobil. Jeg fant også tidlig inspirasjon fra flere andre nettsider, hvor et universelt trekk de har til felles, er hundepoter(paws). Dette ville jeg altså inkludere på et tidspunkt. Jeg visste også fra tidlig av at jeg ville bruke parallax scroll effekter på siden min, fordi jeg tenkte det kunne passe med søte hunder. På grunn av alle disse tingene jeg hadde i bakhodet, valgte jeg å gjøre prototypearbeid i vscode istedenfor i figma eller for hånd. Jeg lagde ikke prototype for alle de individuelle sidene, men hovedsakelig for det generelle layoutet til nettsiden og hjemmesiden
