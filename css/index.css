@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(144, 151, 153);
+    background-color: rgb(216, 225, 228);
     border-radius: 10px
   }
   .slides{
@@ -76,7 +76,7 @@
     align-items: center;
   }
   .arrow {
-    color: white;
+    color: lightblue;
   }
   .slide-arrow:hover,
   .slide-arrow:focus {
