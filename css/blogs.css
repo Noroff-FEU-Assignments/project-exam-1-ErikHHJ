@@ -22,9 +22,10 @@
     margin: 5px;
     border-radius: 10px;
     border: 2px solid white;
+    transition: 0.5s;
 }
 .dogimg:hover{
-    scale: 1.08;
+    scale: 1.05;
 }
 .dogtitle{
     font-size: larger;

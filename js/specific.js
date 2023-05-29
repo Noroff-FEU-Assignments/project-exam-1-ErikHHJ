@@ -15,6 +15,7 @@ const specificRender = async () => {
         const res = await fetch(url);
         const results = await res.json();
         hideLoading()
+        document.querySelector('meta[name="description"]').setAttribute("content", `Dog Blog | This page displays a blog post about the ${results.title.rendered}.`);
         const blogTitle = document.createElement("h1");
         blogTitle.innerHTML = `Blog post:${results.title.rendered}`
         document.title = `Dog-Blog | ${results.title.rendered}`

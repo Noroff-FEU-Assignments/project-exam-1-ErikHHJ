@@ -2,6 +2,7 @@ RAPPORT: Erik Hjulstad
 
 Github repo: https://github.com/Noroff-FEU-Assignments/project-exam-1-ErikHHJ/
 WP api: https://hjulstad.one/exam1/wp-json
+netlify deployment: https://brilliant-pony-dfa3ff.netlify.app/
 
 Innledning:
 I denne oppgaven skal jeg lage en blogg med valgfritt tema. Jeg tolker det sånn at siden vi ikke får utdelt noe innhold, er det noe jeg ikke burde bruke for mye tid på, siden det vil gi meg dårlig tid til andre ting. 
@@ -49,5 +50,11 @@ Kandidat 3:
 2: X-en på modal på specific trenger ekstra utheving sånn at den er tydelig og at man ser den har en funksjon. 
 
 Disse punktene er oversatt av meg. Forklart på en mer fullstendig måte enn hvordan det ble fortalt til meg. Dette er punktene som ble direkte fortalt til meg, men det er veldig mange andre ting som jeg har gjort endringer på, etter å ha sett hvordan brukerene navigerer seg rundt på siden via hotjar recording or heatmaps. 
+
+To dager før levering bestemte jeg meg for å endre bakgrunnen fra et repeating bilde av hundepoter i svart hvitt til en radial gradient av svart og lyseblå. Jeg har tenkt at den passet så bra til temaet mitt, men at den repeater lager stygge linjer rundt omkring. 
+rapportbilde2 er bildet jeg hadde som repeating background image, for kontekst. 
+
+Siste dag før levering gjorde jeg også en liten endring til specific js, der jeg la til kode for å displaye en oppdatert meta description for hver hunderase. 
+Kommer ikke på noe jeg har glemt, og dermed leverer jeg. 
 
 
