@@ -20,7 +20,7 @@ In order to take a look at this project, the netlify deployment link is: https:/
 
 1. Clone the repo:
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+gh repo clone Noroff-FEU-Assignments/project-exam-1-ErikHHJ
 ```
 2. Install the dependencies:
 ```bash
